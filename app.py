@@ -5,7 +5,7 @@ import requests
 app = Flask(__name__)
 CORS(app)
 
-UNSPLASH_ACCESS_KEY = 'wJ7Pji4MCQOW7L_c7Xl5bHgTw60t5Z0v-gHHvvK62wo'  # Replace with your Unsplash API key
+UNSPLASH_ACCESS_KEY = ''  # Replace with your Unsplash API key
 
 @app.route('/api/images', methods=['GET'])
 def get_images():
